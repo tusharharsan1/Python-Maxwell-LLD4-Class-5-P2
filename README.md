@@ -1,6 +1,6 @@
 # Product Pages at ShopNest
 
-> **Where the files are:** the starter files in the `base/` folder. Every path below (such as `app/services/product_service.py` and `try_it.py`) is inside `base/`. Open a terminal in `base/` to run the commands.
+> **Where the files are:** the finished files in the `solution/` folder. Every path below (such as `app/services/product_service.py` and `try_it.py`) is inside `solution/`. Open a terminal in `solution/` to run the commands.
 
 ## Problem Statement
 We have more products than fit on one screen, so the shop app asks for them **one page at a time**: "give me page 0, with 3 products on each page", then "page 1", and so on. In class, the route received `page` and `size` and cut the list into a page. Now that the rules live in the service (as we did in Class 5), the service must do this work. We also want a second list that shows only the products that are almost sold out. Complete the two methods of `ProductService`.
